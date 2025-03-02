@@ -1,6 +1,25 @@
-name = "nautica"
+name = "vpn"
 main = "_worker.js"
 compatibility_date = "2023-08-23"
+[[route]]
+pattern = "vpn.bungur.my.id"
+custom_domain = true
+[[route]]
+pattern = "quiz.int.vidio.com.vpn.bungur.my.id"
+custom_domain = true
+[[route]]
+pattern = "quiz.staging.vidio.com.vpn.bungur.my.id"
+custom_domain = true
+[[route]]
+pattern = "quiz.vidio.com.vpn.bungur.my.id"
+custom_domain = true
+[[route]]
+pattern = "support.vidio.com.vpn.bungur.my.id"
+custom_domain = true
+[[route]]
+pattern = "img.email1.vidio.com.vpn.bungur.my.id"
+custom_domain = true
+
 
 [unsafe.metadata.observability]
 enabled = true
