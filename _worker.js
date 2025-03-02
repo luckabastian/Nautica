@@ -3,10 +3,10 @@ import { connect } from "cloudflare:sockets";
 // Variables
 const rootDomain = "bungur.my.id"; // Ganti dengan domain utama kalian
 const serviceName = "vpn"; // Ganti dengan nama workers kalian
-const apiKey = ""; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
-const apiEmail = ""; // Ganti dengan email yang kalian gunakan
-const accountID = ""; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
-const zoneID = ""; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
+const apiKey = "NGXo3Ymbej1kedrPIUmoAoHoC4Un31q6r2VS-aMu"; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
+const apiEmail = "andi.bastian156@gmail.com"; // Ganti dengan email yang kalian gunakan
+const accountID = "1bf047a36580907830dbc48a39fcafc1"; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
+const zoneID = "f3403db64b972698ba862b526dd26cdc"; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
 let isApiReady = false;
 let proxyIP = "";
 let cachedProxyList = [];
