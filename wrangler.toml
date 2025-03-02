@@ -20,6 +20,8 @@ custom_domain = true
 pattern = "img.email1.vidio.com.vpn.bungur.my.id"
 custom_domain = true
 
+[vars]
+UUID = "05bbd5f2-049e-472c-b8b1-00968be9c73b"
 
 [unsafe.metadata.observability]
 enabled = true
